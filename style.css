@@ -85,6 +85,20 @@ a {
   padding: 120px 24px 96px;
 }
 
+.hero-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+
 .hero-eyebrow {
   font-size: 14px;
   color: var(--accent);
@@ -162,6 +176,32 @@ a {
 
 .about-text p:last-child {
   margin-bottom: 0;
+}
+
+/* ============ 最近在做什么 ============ */
+.now-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.now-list li {
+  position: relative;
+  padding-left: 24px;
+  font-size: 16px;
+  color: var(--text-muted);
+}
+
+.now-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
 }
 
 /* ============ 作品 ============ */

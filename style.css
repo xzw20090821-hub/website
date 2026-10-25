@@ -258,6 +258,12 @@ a {
   border-bottom-color: var(--accent);
 }
 
+.contact-phone {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
 /* ============ 页脚 ============ */
 .site-footer {
   border-top: 1px solid var(--border);
